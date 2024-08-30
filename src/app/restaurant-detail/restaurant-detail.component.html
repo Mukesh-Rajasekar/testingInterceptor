@@ -1,0 +1,12 @@
+<div class="restaurant-detail-container">
+  <div class="restaurant-detail-card">
+   <!-- <img [src]="restaurant.cuisine.imagePath" alt="{{ restaurant.name }}" class="restaurant-image"/>-->
+   <img src="assets/images/cup-theory.jpg" alt="Cup Theory" class="restaurant-image"/>
+
+    <h2>{{ restaurant.name }}</h2>
+    <p><strong>Cuisine:</strong> {{ restaurant.cuisine.name }}</p>
+    <p><strong>Location:</strong> {{ restaurant.location }}</p>
+    <p><strong>Description:</strong> {{ restaurant.cuisine.description }}</p>
+    <button (click)="addFavRestaurant()">Click Me</button>
+  </div>
+</div>

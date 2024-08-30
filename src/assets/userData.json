@@ -1,0 +1,120 @@
+{
+    "users": [
+        {
+            "userId": "user123",
+            "password": "securePassword123",
+            "username": "john_doe",
+            "email": "john.doe@example.com",
+            "profileImage": "http://example.com/profile.jpg",
+            "favoriteRestaurants": [
+              {
+                "restaurantId": "rest123",
+                "name": "Gourmet Bistro",
+                "location": "123 Main St, Anytown, USA",
+                "cuisine": [
+                  {
+                    "cuisineId": 1,
+                    "name": "Italian",
+                    "type": "Cuisine",
+                    "description": "Traditional Italian cuisine with a modern twist."
+                  },
+                  {
+                    "cuisineId": 2,
+                    "name": "Japanese",
+                    "type": "Cuisine",
+                    "description": "Authentic Japanese dishes with fresh ingredients."
+                  }
+                ],
+                "foodItems": [
+                  {
+                    "dishName": "Spaghetti Carbonara",
+                    "price": 12.99,
+                    "rating": 4.5,
+                    "dishDescription": "Classic Italian pasta with a creamy carbonara sauce."
+                  },
+                  {
+                    "dishName": "Tuna Sashimi",
+                    "price": 18.50,
+                    "rating": 4.8,
+                    "dishDescription": "Fresh tuna sashimi served with wasabi and soy sauce."
+                  }
+                ]
+              }
+            ],
+            "favoriteCuisines": [
+              {
+                "cuisineId": 3,
+                "name": "Mexican",
+                "type": "Cuisine",
+                "description": "Spicy and flavorful Mexican dishes, including tacos and burritos."
+              },
+              {
+                "cuisineId": 4,
+                "name": "Indian",
+                "type": "Cuisine",
+                "description": "Rich and aromatic Indian curries and biryanis."
+              }
+            ]
+          },
+
+
+          {
+            "userId": "sam123",
+            "password": "password123",
+            "username": "john_doe",
+            "email": "john.doe@example.com",
+            "profileImage": "http://example.com/profile.jpg",
+            "favoriteRestaurants": [
+              {
+                "restaurantId": "rest123",
+                "name": "Gourmet Bistro",
+                "location": "123 Main St, Anytown, USA",
+                "cuisine": [
+                  {
+                    "cuisineId": 1,
+                    "name": "Italian",
+                    "type": "Cuisine",
+                    "description": "Traditional Italian cuisine with a modern twist."
+                  },
+                  {
+                    "cuisineId": 2,
+                    "name": "Japanese",
+                    "type": "Cuisine",
+                    "description": "Authentic Japanese dishes with fresh ingredients."
+                  }
+                ],
+                "foodItems": [
+                  {
+                    "dishName": "Spaghetti Carbonara",
+                    "price": 12.99,
+                    "rating": 4.5,
+                    "dishDescription": "Classic Italian pasta with a creamy carbonara sauce."
+                  },
+                  {
+                    "dishName": "Tuna Sashimi",
+                    "price": 18.50,
+                    "rating": 4.8,
+                    "dishDescription": "Fresh tuna sashimi served with wasabi and soy sauce."
+                  }
+                ]
+              }
+            ],
+            "favoriteCuisines": [
+              {
+                "cuisineId": 3,
+                "name": "Mexican",
+                "type": "Cuisine",
+                "description": "Spicy and flavorful Mexican dishes, including tacos and burritos."
+              },
+              {
+                "cuisineId": 4,
+                "name": "Indian",
+                "type": "Cuisine",
+                "description": "Rich and aromatic Indian curries and biryanis."
+              }
+            ]
+          } 
+      
+    ]
+  }
+  

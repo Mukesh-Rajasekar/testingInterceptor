@@ -1,0 +1,29 @@
+<div class="b-example-divider"></div>
+
+  <header class="p-3 bg-dark text-white">
+    <div class="container-fluid">
+      
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a routerLink="/home" class="nav-link p-3 text-warning bg-primary">
+          FoodieApp
+        </a>
+        
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a routerLink="/home" class="nav-link px-2 text-white">Home</a></li>
+          <li><a routerLink="/favourite-restaurant" class="nav-link px-2 text-white">Favourite Restaurant</a></li>
+          <li><a routerLink="/signup" class="nav-link px-2 text-white">Favourite Cuisine</a></li>
+        </ul>
+
+        <div class="text-end">
+     <button type="button" class="btn btn-outline-light me-2" (click)="navigateToLogin()">Login</button>
+          <button type="button" class="btn btn-warning" (click)="navigateToSignup()">Sign-up</button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <router-outlet></router-outlet>
+
+
+
+  

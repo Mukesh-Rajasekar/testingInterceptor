@@ -1,0 +1,14 @@
+<app-search (searchChanged)="filterData($event)"></app-search>
+
+<div class="card-container">
+  <div class="card" *ngFor="let card of filteredData" (click)="viewDetails(card.restaurantId)">
+    
+    <img [src]="card.cuisine.imagePath" alt="{{ card.name }}" class="card-image"/>
+    
+    
+    <h4>{{ card.name }}</h4>
+    <p>{{ card.cuisine.name }}</p>
+    <p>{{ card.location }}</p>
+   
+  </div>
+</div>
